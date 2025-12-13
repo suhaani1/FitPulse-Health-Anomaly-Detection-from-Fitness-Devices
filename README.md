@@ -15,11 +15,11 @@ These datasets are merged together and aligned on a common timeline and sampled 
 2. streamlit for file upload UI
 3. pandas for data processing and resampling
 
-   ### how to run
-   `bash`
-   streamlit run app.py
-   ### upload dataset:
-    upload fitness data file in csv or json
+### how to run
+`bash`
+ streamlit run app.py
+ ### upload dataset:
+ upload fitness data file in csv or json
    
 ### Output
 
