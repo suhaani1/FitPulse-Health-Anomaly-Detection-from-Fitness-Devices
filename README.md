@@ -6,8 +6,7 @@ This project focuses on building a robust data preprocessing pipeline of a fitne
 the goal of this is to ingest raw fitness data,clean and normalize timestamps, handle missing values and align all health metrics to consistent time frequency for future analysis and anomaly detection.
 
 ### Datset:
-The dataset is taken fron kaggle
-https://www.kaggle.com/datasets/jahanzaibqamar/fitbit-fitness-tracker-data
+The dataset is taken fron kaggle: https://www.kaggle.com/datasets/jahanzaibqamar/fitbit-fitness-tracker-data
 that inlcude heartrate, steps and sleep.
 These datasets are merged together and aligned on a common timeline and sampled at 1-minute intervals.
 
