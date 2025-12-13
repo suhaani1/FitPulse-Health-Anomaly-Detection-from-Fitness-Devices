@@ -73,8 +73,8 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🏃 FitPulse – Data Collection & Preprocessing")
-st.markdown("### Milestone 1 (Weeks 1–2)")
+st.title(" FitPulse Health Anomaly Detection from Fitness Devices")
+st.markdown("### Milestone 1")
 
 st.markdown("""
 **Objectives**
@@ -184,3 +184,4 @@ if uploaded_file:
 
 else:
     st.info("Please upload a fitness dataset to begin preprocessing.")
+
