@@ -1,7 +1,3 @@
-Below is a **clean, submission-ready `README.md`** you can **copy-paste directly** into your **Milestone 2 repository / Hugging Face Space**.
-It is written exactly in the format evaluators expect.
-
----
 
 #  FitPulse Health Anomaly Detection from Fitness Devices
 
