@@ -3,14 +3,14 @@
 
 ##  Milestone 2: Feature Extraction and Modeling
 
----
+
 
 ##  Objective of Milestone 2
 
 The objective of **Milestone 2** is to derive meaningful insights from preprocessed fitness data by extracting time-series features, modeling temporal trends, and identifying behavioral patterns.
 This milestone establishes the analytical foundation required for **anomaly detection** in subsequent milestones.
 
----
+
 
 ##  Dataset Description
 
@@ -26,9 +26,8 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 
  Data is aligned to a consistent time frequency and free from missing or invalid values.
 
----
 
-## 🛠️ Steps Performed
+##  Steps Performed
 
 ### 1️ Feature Extraction (TSFresh)
 
@@ -44,7 +43,7 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 * Energy and entropy measures
 * Fourier and autocorrelation features
 
----
+
 
 ### 2️ Trend Modeling (Facebook Prophet)
 
@@ -61,7 +60,7 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 * Visualized results with **confidence intervals**
 * Computed deviations to highlight unusual behavior patterns
 
----
+
 
 ### 3️ Behavioral Pattern Clustering
 
@@ -75,7 +74,7 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 
  Clusters help distinguish **normal vs. atypical user behavior**.
 
----
+
 
 ##  Tools and Libraries Used
 
@@ -88,7 +87,7 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 * **Matplotlib** – Visualization
 * **Hugging Face Spaces** – Deployment
 
----
+
 
 ##  Application Interface (Streamlit)
 
@@ -100,7 +99,7 @@ The entire Milestone 2 pipeline is implemented as an **interactive Streamlit app
 * Perform clustering and visualize behavioral patterns
 * Download feature matrices with cluster labels
 
----
+
 
 ##  Key Observations
 
@@ -110,7 +109,7 @@ The entire Milestone 2 pipeline is implemented as an **interactive Streamlit app
 * DBSCAN successfully isolates outlier behaviors
 * Feature extraction enables effective dimensionality reduction and grouping
 
----
+
 
 ##  Screenshots (To Be Added)
 
@@ -120,7 +119,7 @@ The following outputs are included as screenshots in the repository:
 2. Prophet trend plots with confidence intervals
 3. PCA-based clustering visualization
 
----
+
 
 ##  Deployment
 
@@ -128,7 +127,7 @@ The following outputs are included as screenshots in the repository:
 * No Docker or REST APIs are used
 * Access is via browser-based UI
 
----
+
 
 ##  How to Run Locally
 
@@ -150,17 +149,6 @@ Milestone2/
 ├── README.md
 └── data/
 ```
-
----
-
-##  Milestone Status
-
-✔ Feature Extraction Completed
-✔ Trend Modeling Completed
-✔ Behavioral Clustering Completed
-✔ Streamlit Deployment Completed
-
----
 
 
 
