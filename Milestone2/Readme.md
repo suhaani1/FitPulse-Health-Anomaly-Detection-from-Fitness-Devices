@@ -85,19 +85,7 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 * **Facebook Prophet** – Trend and seasonality modeling
 * **Scikit-learn** – Clustering & PCA
 * **Matplotlib** – Visualization
-* **Hugging Face Spaces** – Deployment
-
-
-
-##  Application Interface (Streamlit)
-
-The entire Milestone 2 pipeline is implemented as an **interactive Streamlit application**, allowing users to:
-
-* Upload fitness data
-* Extract TSFresh features
-* Visualize Prophet trends with confidence intervals
-* Perform clustering and visualize behavioral patterns
-* Download feature matrices with cluster labels
+  
 
 
 
@@ -111,44 +99,9 @@ The entire Milestone 2 pipeline is implemented as an **interactive Streamlit app
 
 
 
-##  Screenshots (To Be Added)
-
-The following outputs are included as screenshots in the repository:
-
-1. TSFresh feature matrix preview
-2. Prophet trend plots with confidence intervals
-3. PCA-based clustering visualization
 
 
 
-##  Deployment
-
-* The application is deployed as a **public Streamlit Space on Hugging Face**
-* No Docker or REST APIs are used
-* Access is via browser-based UI
-
-
-
-##  How to Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
----
-
-##  Folder Structure
-
-```
-Milestone2/
-├── app.py
-├── feature_extraction.py
-├── modeling.py
-├── requirements.txt
-├── README.md
-└── data/
-```
 
 
 
