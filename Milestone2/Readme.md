@@ -29,7 +29,7 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 
 ##  Steps Performed
 
-### 1️ Feature Extraction (TSFresh)
+###  Feature Extraction (TSFresh)
 
 * Converted time-series data into long format
 * Automatically extracted statistical and frequency-based features using **TSFresh**
@@ -45,7 +45,7 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 
 
 
-### 2️ Trend Modeling (Facebook Prophet)
+###  Trend Modeling (Facebook Prophet)
 
 * Modeled temporal trends for:
 
@@ -62,7 +62,7 @@ The dataset used in this milestone is the **cleaned and merged fitness dataset**
 
 
 
-### 3️ Behavioral Pattern Clustering
+###  Behavioral Pattern Clustering
 
 * Standardized extracted features
 * Applied unsupervised learning techniques:
