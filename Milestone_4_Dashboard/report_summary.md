@@ -13,7 +13,7 @@ The objective of this milestone is to develop an interactive health monitoring d
 1. The Streamlit application is launched inside Google Colab.
 2. ngrok creates a public URL to access the dashboard.
 3. Users upload fitness data files in CSV or JSON format.
-4. The uploaded dataset is processed and the `datetime` column is converted to a proper timestamp.
+4. The uploaded dataset is processed and the `date` column is converted to a proper timestamp.
 5. Users filter data using date range selectors from the sidebar.
 6. Interactive visualizations display health metrics with anomaly markers.
 7. An anomaly summary report is generated and made available for download in CSV format.
